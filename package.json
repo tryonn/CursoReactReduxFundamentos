@@ -1,0 +1,24 @@
+{
+  "name": "CursoReactReduxFundamentos",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tryonn/CursoReactReduxFundamentos.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tryonn/CursoReactReduxFundamentos/issues"
+  },
+  "homepage": "https://github.com/tryonn/CursoReactReduxFundamentos#readme",
+  "dependencies": {
+    "webpack": "^1.14.0",
+    "webpack-dev-server": "^1.16.2"
+  }
+}
