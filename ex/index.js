@@ -22,6 +22,7 @@ novoProduto.nome = 'Caneta Bic Azul'
 
 console.log(produto, novoProduto);
 */
+import './estilo.css'
 import 'react'
 
 export default props => (
