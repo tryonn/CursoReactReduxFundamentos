@@ -1,11 +1,6 @@
 import React from 'react'
 
-/*
-    export default function() {
-        return <h1>Primeiro Componente</h1>
-    }
-*/
 //Arrow Function
-export default () => (
-    <h1>Primeiro Componente</h1>
+export default props => (
+    <h1>{ props.value }</h1>
 )
