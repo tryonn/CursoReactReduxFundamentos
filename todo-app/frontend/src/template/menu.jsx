@@ -15,7 +15,7 @@ export default props => (
                         <a href='#/todos'>Tarefas</a>
                     </li>
                     <li>
-                        <a href='#/aboute'>Sobre</a>
+                        <a href='#/about'>Sobre</a>
                     </li>
                 </ul>
             </div>
