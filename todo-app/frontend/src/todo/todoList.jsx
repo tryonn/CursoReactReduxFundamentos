@@ -7,9 +7,11 @@ export default propos => {
         const list = propos.list || []
         return list.map(todo => (
             <tr key={todo._id}>
-                <td>{todo.description}</td>
+                <td className={todo.done ? 'markeAsDone' : ''}>{todo.description}</td>
                 <td>
-                    <IconButton style='danger' icon='trash-o' onClick={ () => propos.handleRemove(todo)}></IconButton>
+                    <IconButton hide={todo.done} style='success' icon='check' onClick={ () => propos.handleMarkAsDone(todo)}></IconButton>
+                    <IconButton hide={!todo.done} style='warning' icon='undo' onClick={ () => propos.handleMarkAsPending(todo)}></IconButton>
+                    <IconButton hide={!todo.done} style='danger' icon='trash-o' onClick={ () => propos.handleRemove(todo)}></IconButton>
                 </td>
             </tr>
         ))
